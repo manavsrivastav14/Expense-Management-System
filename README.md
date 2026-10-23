@@ -6,7 +6,7 @@ This project is an expense management system that consists of a Streamlit fronte
 
 - **frontend/**: Contains the Streamlit application code.
 - **backend/**: Contains the FastAPI backend server code.
-- **tests/**: Contains the test cases for both frontend and backend.
+- **tests/**: Contains the test cases for backend.
 - **requirements.txt**: Lists the required Python packages.
 - **README.md**: Provides an overview and instructions for the project.
 
@@ -22,11 +22,14 @@ This project is an expense management system that consists of a Streamlit fronte
     pip install -r requirements.txt
    ```
 3. **Run the FastAPI server:**:
+   -- NOTE: starting from root directory
    ```commandline
+   cd backend/
    uvicorn server:app --reload
    ```
 
 4. **Run the Streamlit app:**:
+   -- NOTE: starting from root directory
    ```commandline
     streamlit run frontend/app.py
    ```
