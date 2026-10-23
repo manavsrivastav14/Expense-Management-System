@@ -22,16 +22,19 @@ This project is an expense management system that consists of a Streamlit fronte
     pip install -r requirements.txt
    ```
 3. **Run the FastAPI server:**:
-   Note - Starting from root directory
-4. ```commandline
-   cd backend
+   ```commandline
    uvicorn server:app --reload
    ```
 
-5. **Run the Streamlit app:**:
-   Note - Starting from root directory
+4. **Run the Streamlit app:**:
    ```commandline
     streamlit run frontend/app.py
    ```
 
 ## Screenshots of project Interface
+<img width="1047" height="761" alt="Adding Expense" src="https://github.com/user-attachments/assets/0fec7361-fd82-48d8-b278-b03bd79a97ac" />
+<img width="520" height="692" alt="Analysis by Category " src="https://github.com/user-attachments/assets/b2c099da-54c0-4c85-baab-85da9e30d65b" />
+<img width="482" height="502" alt="Analysis By Month" src="https://github.com/user-attachments/assets/4050623f-d393-4a3d-b1f4-8d2187bb9391" />
+
+
+
